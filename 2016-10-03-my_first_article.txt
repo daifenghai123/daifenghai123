@@ -1,0 +1,30 @@
+---
+title:Hello,My Blog
+---
+
+# {{ page.title }}
+
+## ??
++ [First Part](#partI)
++ [Second Part](#partII)
++ [Third Part](#partIII)
+
+----------------------------------
+
+## First Part
+ 
+This is content of first part
+
+----------------------------------
+
+## Second Part 
+ 
+This is content of second part
+
+----------------------------------
+
+## Third Part
+ 
+This is content of third part
+
+{{ page.date|date_to_string }}
